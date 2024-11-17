@@ -1,0 +1,85 @@
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+:root {
+  /**
+   * colors
+   */
+  --Neutral--N700: hsla(98, 5%, 32%, 1);
+  --Neutral---1000: hsla(90, 10%, 88%, 1);
+  --TextColor--NeutralSecondary: hsla(97, 5%, 52%, 1);
+  --TextColor--NeutralSubtle: hsla(96, 5%, 40%, 1);
+  --TextColor--NeutralPrimary: hsla(97, 5%, 64%, 1);
+  --Primary--PR600: hsla(104, 50%, 30%, 1);
+  --Neutral--N200: hsla(90, 5%, 12%, 1);
+  --TextColor--NeutralStress: hsla(90, 10%, 88%, 1);
+  --Neutral--N800: hsla(97, 5%, 64%, 1);
+  --BoderColor--BorderNeutralPrimary: hsla(98, 5%, 16%, 1);
+  --Neutral--N0: hsla(0, 0%, 100%, 1);
+  --Neutral--N0: hsla(90, 9%, 5%, 1);
+  --TextColor--BrandDeep: hsla(105, 50%, 44%, 1);
+  --Primary--PR500: hsla(105, 51%, 24%, 1);
+  --IconColor--BrandPrimary: hsla(104, 50%, 30%, 1);
+  --DarkOverlayElement--100: hsla(0, 0%, 100%, 1);
+  --BgLayoutColor--BgNeutralDim: hsla(90, 7%, ;7%, 1);
+  --Neutral--N300: hsla(98, 5%, 16%, 1);
+  --BgElementColor--BgNeutralPrimary: hsla(90, 9%, 5%, 1);
+  --BgLayoutColor--BgNeutralPrimary: hsla(90, 9%, 5%, 1);
+  --BoderColor--BorderBrandPrimary: hsla(105, 51%, 24%, 1);
+  --TextColor--BrandPrimary: hsla(104, 50%, 30%, 1);
+  /* --Neutral--N800: hsla(95, 5%, 24%, 1); */
+  --TextColor--NeutralDim: hsla(98, 5%, 32%, 1);
+  --Primary--PR300: hsla(105, 51%, 72%, 1);
+  --Linear--Gradient: hsla(223, 79%, 72%, 1) hsla(229, 51%, 54%, 1);
+
+  /**
+   * typography
+   */
+
+  --ff-poppins: "Poppins", sans-serif;
+  --ff-cuprum: "Cuprum", sans-serif;
+
+  --fs-1: 4.5rem;
+  --fs-2: 3.6rem;
+  --fs-3: 3.5rem;
+  --fs-4: 3.2rem;
+  --fs-5: 2.5rem;
+  --fs-6: 2.4rem;
+  --fs-7: 2.2rem;
+  --fs-8: 2rem;
+  --fs-9: 1.8rem;
+  --fs-10: 1.5rem;
+  --fs-11: 1.4rem;
+  --fs-12: 1.3rem;
+
+  --fw-600: 600;
+  --fw-500: 500;
+
+  /**
+   * spacing
+   */
+
+  --section-padding: 80px;
+
+  /**
+   * shadow
+   */
+
+  --shadow-1: 3px 4px 30px hsla(0, 0%, 53%, 0.1);
+  --shadow-2: 5px 3px 40px hsla(191, 100%, 17%, 0.1);
+
+  /**
+   * radius
+   */
+
+  --radius-5: 5px;
+
+  /**
+   * transition
+   */
+
+  --transition-1: 0.25s ease;
+  --transition-2: 0.5s ease;
+  --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+}

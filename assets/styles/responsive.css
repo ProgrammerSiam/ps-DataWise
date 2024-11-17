@@ -1,0 +1,116 @@
+/*---------------------------------------------*\
+   DESKTOP TO MOBILE
+\*---------------------------------------------*/
+
+/*=============== Extra-Wide Screens: 1600px and below ===============*/
+@media screen and (max-width: 1600px) {
+  
+}
+
+/*=============== Ultra-Wide Screens: 1400px and below ===============*/
+@media screen and (max-width: 1400px) {
+}
+
+/*=============== Extra Large Devices: 1200px and below ===============*/
+@media screen and (max-width: 1200px) {
+}
+
+/*=============== Large Devices: 1024px and below ===============*/
+@media screen and (max-width: 1199px) {
+
+   /* .header .container{
+      justify-content: center;
+   } */
+              .header .container .nav-item {
+  display: none;
+ 
+
+} 
+.header .container .header-btn .bar {
+  display: block;
+
+}
+
+}
+
+/*=============== Extra Medium Devices: 998px and below ===============*/
+@media screen and (max-width: 998px) {
+}
+
+/*=============== Large Mobile Devices: 900px and below ===============*/
+@media screen and (max-width: 900px) {
+}
+
+/*=============== Medium-Large Devices: 850px and below ===============*/
+@media screen and (max-width: 810px) {
+   .header .container .header-btn .btn{
+      display: none;
+   }
+}
+
+/*=============== Medium Devices: 768px and below ===============*/
+@media screen and (max-width: 768px) {
+}
+
+/*=============== Medium-Small Devices: 635px and below ===============*/
+@media screen and (max-width: 635px) {
+}
+
+/*=============== Small Devices: 576px and below ===============*/
+@media screen and (max-width: 576px) {
+}
+
+/*=============== Small Mobile Devices: 450px and below ===============*/
+@media screen and (max-width: 450px) {
+}
+
+/*=============== Extra Small Devices: 400px and below ===============*/
+@media screen and (max-width: 400px) {
+}
+
+/*=============== Ultra-Small Devices: 320px and below ===============*/
+@media screen and (max-width: 320px) {
+}
+
+/*---------------------------------------------*\
+   MOBILE TO DESKTOP
+\*---------------------------------------------*/
+
+/*=============== Ultra-Small Devices: 320px and up ===============*/
+@media (min-width: 320px) {
+
+}
+
+/*=============== Extra Small Devices: 480px and up ===============*/
+@media (min-width: 480px) {
+}
+
+/*=============== Small Devices: 576px and up ===============*/
+@media (min-width: 576px) {
+
+}
+
+/*=============== Medium Devices: 768px and up ===============*/
+@media (min-width: 768px) {
+
+}
+
+/*=============== Large Devices: 992px and up ===============*/
+@media (min-width: 992px) {
+ 
+ 
+}
+
+/*=============== Extra Large Devices: 1200px and up ===============*/
+@media (min-width: 1200px) {
+ 
+   
+}
+
+/*=============== SUltra-Wide Screens: 1400px and up ===============*/
+@media (min-width: 1600px) {
+   /* .header .container{
+  padding: 2rem 30%;
+
+   } */
+}
