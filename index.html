@@ -1,25 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Character Encoding -->
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DataWise</title>
-    <!---FAVICON--->
-    <link rel="shortcut icon" href="./favic on.svg" type="image/svg+xml" />
 
-    <!---CUSTOM CSS LINK--->
-    <link rel="stylesheet" href="./assets/styles//style.css" />
+    <!-- Primary Meta Tags -->
+    <title>ps-DataWish | Modern HTML Template by ProgrammerSiam</title>
+    <meta name="title" content="ps-DataWish | Modern HTML Template" />
+    <meta
+      name="description"
+      content="This is a modern, responsive HTML template made by ProgrammerSiam, optimized for speed, SEO, and user experience."
+    />
+    <meta
+      name="keywords"
+      content="modern, responsive, html, css, js template, ProgrammerSiam"
+    />
+    <meta name="author" content="Mehedi Hasan Siam" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Metadata for Social Media -->
+    <meta property="og:title" content="ps-DataWish | Modern HTML Template" />
+    <meta
+      property="og:description"
+      content="A modern, responsive HTML template made by ProgrammerSiam, optimized for SEO and performance."
+    />
+    <meta
+      property="og:image"
+      content="https://yourwebsite.com/assets/images/og-image.jpg"
+    />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ps-DataWish | Modern HTML Template" />
+    <meta
+      name="twitter:description"
+      content="A modern, responsive HTML template made by ProgrammerSiam, optimized for SEO and performance."
+    />
+    <meta
+      name="twitter:image"
+      content="https://yourwebsite.com/assets/images/twitter-card.jpg"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png" />
+
+    <!-- Custom CSS Links -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
     <link rel="stylesheet" href="./assets/styles/reset.css" />
     <link rel="stylesheet" href="./assets/styles/globals.css" />
     <link rel="stylesheet" href="./assets/styles/vars.css" />
-
-    <!---RESPONSIVE CSS LINK--->
     <link rel="stylesheet" href="./assets/styles/responsive.css" />
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="./assets/styles/style.css" as="style" />
+    <link rel="preload" href="./assets/images/hero-banner.jpg" as="image" />
+
+    <!-- Schema Markup for Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ps-DataWish",
+        "url": "https://yourwebsite.com",
+        "description": "Modern HTML template made by ProgrammerSiam, featuring responsiveness and SEO optimization.",
+        "publisher": {
+          "@type": "Person",
+          "name": "Mehedi Hasan Siam"
+        }
+      }
+    </script>
+
+    <!-- Google Analytics (Example ID) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-XXXXXXXXX");
+    </script>
   </head>
 
   <body id="top">
-    <!--- #HEADER-->
-
+    <!--- #HEADER -->
     <header class="header" id="header" data-header>
       <nav class="container">
         <div class="header-content">
@@ -96,10 +172,11 @@
       </nav>
     </header>
 
+    <!--- #MAIN -->
     <main>
       <article>
         <!--- #HERO --->
-        <section class="hero" id="hero" aria-label="hero">
+        <section class="section hero" id="hero" aria-label="hero">
           <div class="container">
             <div class="hero-left-content">
               <div class="hero-content">
@@ -478,7 +555,7 @@
       </article>
     </main>
 
-    <!---#FOOTER-->
+    <!--- #FOOTER -->
     <footer class="footer" id="footer">
       <div class="container">
         <div class="footer-logo">

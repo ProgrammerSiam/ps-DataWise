@@ -72,6 +72,12 @@
 @media screen and (max-width: 320px) {
 }
 
+
+
+
+
+
+
 /*---------------------------------------------*\
    MOBILE TO DESKTOP
 \*---------------------------------------------*/
@@ -109,8 +115,5 @@
 
 /*=============== SUltra-Wide Screens: 1400px and up ===============*/
 @media (min-width: 1600px) {
-   /* .header .container{
-  padding: 2rem 30%;
-
-   } */
+ 
 }
